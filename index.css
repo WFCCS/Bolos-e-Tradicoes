@@ -56,7 +56,7 @@ nav {
 main { 
     background: url("fundo3.jpeg") no-repeat center center; /* Adiciona imagem de fundo centralizada sem repetição */
     background-size: cover; /* Redimensiona a imagem para cobrir toda a área de "main" */
-    height: 950vh;           /* Define a altura da seção principal como 92% da altura da tela */
+    height: 450vh;           /* Define a altura da seção principal como 92% da altura da tela */
 }
 
 .nav-list {
