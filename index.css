@@ -90,3 +90,8 @@ height: 100px;}
 
 .visa{width: 200px;
     height: 100px;}
+
+    @media screen and (max-width:768px){.produto-imagem
+    {width: 100%;
+    max-width: 100%;
+height: auto;}}
