@@ -96,3 +96,19 @@ height: 100px;}
     max-width: 100%;
 height: auto;}}
 
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+.logo img  {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 20%;
+
+}
+.logo h1 { 
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
