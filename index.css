@@ -34,21 +34,7 @@ a {
     text-decoration: none;   /* Remove sublinhado dos links */
     transition: 0.3s;        /* Aplica uma transição suave de 0.3 segundos */
 }
-.logo {
-    display: flex;
-    align-items: center;
 
-}
-.logo img  {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-    border-radius: 20%;
-
-}
-.logo h1 { 
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
 }
 a:hover { 
     opacity: 0.7;            /* Reduz a opacidade para 70% no hover, dando um efeito visual */
