@@ -96,3 +96,9 @@ height: 100px;}
     max-width: 100%;
 height: auto;}}
 
+footer.copyright{
+     margin-top: 20px;
+     font-size: 12px;
+     border-top: 1 px solid #fff;
+     padding-top: 10px;
+}
