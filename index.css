@@ -35,9 +35,14 @@ a {
     transition: 0.3s;        /* Aplica uma transição suave de 0.3 segundos */
 }
 
-}
+
 a:hover { 
     opacity: 0.7;            /* Reduz a opacidade para 70% no hover, dando um efeito visual */
+}
+.logo {
+     font-size: 100px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
 }
 
 nav { 
