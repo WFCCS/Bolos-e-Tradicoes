@@ -39,12 +39,6 @@ a:hover {
     opacity: 0.7;            /* Reduz a opacidade para 70% no hover, dando um efeito visual */
 }
 
-.logo { 
-    font-size: 100px;         /* Define o tamanho da fonte como 24 pixels */
-    text-transform: uppercase; /* Transforma o texto em maiúsculas */
-    letter-spacing: 5px;     /* Aumenta o espaçamento entre as letras para 4px */
-}
-
 nav { 
     display: flex;           /* Usa o Flexbox para organizar os itens em linha */
     justify-content: space-around; /* Espaça uniformemente os itens ao redor */
