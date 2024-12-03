@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="index.css"> 
 </head>
 <body>
-    <center> <img src="/Bolos-e-Tradicoes/imagens/Fundo de pave de ouro branco Removido.png" alt="pave de ouro branco" class="produto-imagem">
-        <div class="produto-info">
+    <center> <img src="/Bolos-e-Tradicoes/imagens/Fundo de pave de ouro branco Removido.png" alt="pave de ouro branco" class="produto-imagem"> </center>
+      <div class="container">
+
+        <div class="ingredientes"> 
             <h1>Bolo de morango com kitkat</h1>
             <h3>Ingredientes</h3>
               <ol> 2 latas de leite condensado</ol>
@@ -26,6 +28,85 @@
                 <ol>8 bombons ouro branco</ol>
                 <ol>quanto baste de leite para molhar a bolacha </ol>
                 </div>
-              </center>
+             </div>
 </body>
+<style> 
+  /* Reset básico */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+      font-family: 'Arial', sans-serif;
+      background-size: cover; /* Fundo bege claro */
+      background-attachment: fixed;
+      color: rgb(255, 255, 255); /* Texto principal */
+   
+      background: url("2.png")no-repeat center center;
+      
+  }
+  
+  /* Estilo do Container */
+  .container {
+      max-width: 800px;            /* Largura máxima do container */
+      margin: 20px auto;          /* Centraliza o container na página */
+      padding: 20px;              /* Espaçamento interno */
+      background-color:saddlebrown; /* Fundo branco com leve transparência */
+      border-radius: 20px;        /* Bordas arredondadas */
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+      text-align: center;  
+      border: 5px;       /* Centraliza o texto */
+  }
+  
+  /* Imagem do Produto */
+  .produto-imagem {
+      max-width: 100%;            /* Mantém a imagem responsiva */
+      height: auto;               /* Mantém a proporção */
+      border-radius: 25px;        /* Bordas arredondadas na imagem */
+      margin-bottom: 20px;        /* Espaço abaixo da imagem */
+      box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Títulos do Produto e Ingredientes */
+  h1 {
+      font-size: 2.5rem;          /* Tamanho do título principal */
+      color: rgb(223, 150, 90);         /* Cor do título */
+      margin-bottom: 15px;  
+  }
+  
+  h2 {
+      font-size: 1.8rem;          /* Tamanho do subtítulo */
+      color: rgb(223, 150, 90);              /* Cor do subtítulo */
+      margin: 20px 0 10px; 
+       /* Margens superior e inferior */
+  }
+  
+  /* Estilo da Lista de Ingredientes */
+  .ingredientes {
+      text-align: left;           /* Alinha o texto à esquerda */
+  }
+  
+  h3 {
+      font-size: 1.5rem;          /* Tamanho dos títulos de seção de ingredientes */
+      color: rgb(223, 150, 90);            /* Cor dos títulos de ingredientes */
+      margin: 15px 0 5px;        /* Margens superior e inferior */
+  }
+  
+  ol {
+      padding-left: 20px;         /* Espaçamento à esquerda para a lista ordenada */
+      color: rgb(255, 224, 202);         /* Cor do texto da lista */
+  }
+  
+  ol li {
+      margin-bottom: 5px;  
+      list-style: none;       /* Espaçamento entre os itens da lista */
+  }
+  
+  
+  
+  
+          </style>
 </html>
